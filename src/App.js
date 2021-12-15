@@ -1,3 +1,10 @@
+import { Container } from "@mui/material";
+import { CardComponent } from "./components/Card";
+
 export function App() {
-  return <di>Olá</di>;
+  return (
+    <Container>
+      <CardComponent />
+    </Container>
+  );
 }
